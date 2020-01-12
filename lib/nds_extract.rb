@@ -39,8 +39,16 @@ end
 
 
 def total_gross(source)
-  # Write this implementation
-  #
+  total = 0
+  index = 0 
+  while index < source.length do
+    total = total + source[index][:movies][index][:worldwide_gross]
+    index += 1
+  end 
+
+
+
+
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
   # 2. list_of_directors: names provides an Array of directors names 
@@ -48,6 +56,7 @@ def total_gross(source)
   # (use visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
+  total
 end
 
 
