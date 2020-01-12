@@ -38,7 +38,7 @@ puts list_of_directors(directors_database)
 
 
 
-
+pp directors_database
 
 
 
