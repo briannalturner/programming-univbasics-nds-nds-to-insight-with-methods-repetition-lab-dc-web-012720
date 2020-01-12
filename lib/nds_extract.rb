@@ -46,7 +46,7 @@ def total_gross(source)
     total = total + arr[:name]
     index += 1
   end 
-
+  puts arr
 
 
 
