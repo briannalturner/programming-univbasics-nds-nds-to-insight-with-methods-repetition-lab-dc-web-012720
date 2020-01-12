@@ -43,7 +43,7 @@ def total_gross(source)
   index = 0
   arr = directors_totals(source)
   while index < source.length do
-    total = total + arr[:name]
+    total = 5
     index += 1
   end 
   puts arr
