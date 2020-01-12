@@ -41,9 +41,9 @@ end
 def total_gross(source)
   total = 0
   index = 0
-  arr = directors_totals(source)
-  while index < list_of_directors(source).length do
-    total = 5
+  arr = list_of_directors(source)
+  while index < arr.length do
+    total = total + directors_totals(source)[arr[index]]
     index += 1
   end 
   puts arr
