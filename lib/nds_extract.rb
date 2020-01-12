@@ -34,8 +34,6 @@ def list_of_directors(source)
   result
 end
 
-puts list_of_directors(directors_database)
-
 
 
 pp directors_database
