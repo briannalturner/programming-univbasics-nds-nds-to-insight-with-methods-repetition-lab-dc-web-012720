@@ -12,6 +12,8 @@ def directors_totals(source)
   result
 end
 
+puts directors_totals(directors_database)
+
 def gross_for_director(d)
   total = 0
   index = 0
@@ -33,9 +35,6 @@ def list_of_directors(source)
   end
   result
 end
-
-puts list_of_directors(directors_database)
-
 
 
 def total_gross(source)
