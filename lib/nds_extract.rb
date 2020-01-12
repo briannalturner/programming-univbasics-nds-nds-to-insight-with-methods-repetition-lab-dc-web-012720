@@ -35,7 +35,8 @@ end
 # end
 
 
-puts [directors_database][0][:name]
+puts directors_database[0][:name]
+
 # puts list_of_directors(directors_database)
 
 
