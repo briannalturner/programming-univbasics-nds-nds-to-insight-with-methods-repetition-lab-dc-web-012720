@@ -24,15 +24,15 @@ def gross_for_director(d)
   total
 end
 
-def list_of_directors(source)
-  result = []
-  index = 0
-  while index < source.length do
-    result << [source][index][:name]
-    index += 1
-  end
-  result
-end
+# def list_of_directors(source)
+#   result = []
+#   index = 0
+#   while index < source.length do
+#     result << [source][index][:name]
+#     index += 1
+#   end
+#   result
+# end
 
 
 puts [directors_database][0][:name]
