@@ -34,6 +34,8 @@ def list_of_directors(source)
   result
 end
 
+
+puts [directors_database][0][:name]
 puts list_of_directors(directors_database)
 
 
