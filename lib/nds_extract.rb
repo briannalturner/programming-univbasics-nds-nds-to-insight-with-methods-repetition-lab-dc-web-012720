@@ -46,7 +46,6 @@ def total_gross(source)
     total = total + directors_totals(source)[arr[index]]
     index += 1
   end 
-  puts arr
 #cycle through names to find out keys
 
   # Should use methods:
